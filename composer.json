@@ -1,0 +1,21 @@
+{
+    "name": "willy68/response-sender",
+    "description": "Send ResponseInterface",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "William Lety",
+            "email": "william.lety@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "psr/http-message": "^1.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Http\\Response\\": "src/"
+        }
+    }
+}
