@@ -14,8 +14,8 @@
         "psr/http-message": "^1.0.1"
     },
     "autoload": {
-        "psr-4": {
-            "Http\\Response\\": "src/"
-        }
+        "files": [
+            "src/functions.php"
+        ]
     }
 }
